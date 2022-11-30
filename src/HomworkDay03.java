@@ -1,16 +1,6 @@
 public class HomworkDay03 {
     public static void main(String[] args) {
-//        Scanner practice1 = new Scanner(System.in);
-//
-//        int a = 10;
-//
-//        int b = 3;
-//
-//        System.out.printf("%d + %d = %d\n", a,b, a+b );
-//        System.out.printf("%d - %d = %d\n", a,b, a-b );
-//        System.out.printf("%d / %d = %.2f", a,b, (double)a/b);
-//
-//    }
+
         System.out.println(repeatString("a"));
         System.out.println(repeatString1("a"));
 
@@ -20,7 +10,7 @@ public class HomworkDay03 {
 
         System.out.println(listNumber(100));
     }
-    //Bài 1
+    //Bài 1:
     public static String repeatString(String str1) {
         String total = "";
         for (int i = 0; i < 10; i++) {
